@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#logo-img {
+  width: 60px;
+  height: 60px;
+}
+.menu-container {
+  padding: 10px;
+  display: flex;
+  background-color: #f3ddec;
+  align-items: center;
+  justify-content: space-around;
+}
+.menus ul {
+  display: flex;
+  list-style: none;
+}
+.nav-item {
+  margin: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.nav-item:hover {
+  color: rgb(94, 55, 131);
+}
